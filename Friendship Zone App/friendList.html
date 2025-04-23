@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends List - Friendship Zone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <div class="hero-image">
+        <img src="./assets/friends-banner.jpg" alt="Friends Image" class="banner-img" />
+    </div>
+    <nav class="main-nav">
+        <div class="logo-container">
+            <a href="./index.html" class="logo-link">
+                <img src="./assets/logo.png" alt="Application logo" class="logo-img" />
+            </a>
+            <span class="site-title">Friendship <br />Zone</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="friendList.html" class="active">Friends</a></li>
+            <li id="registrationform"><a href="registrationForm.html">Registration</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <div class="content-container">
+        <h2 class="section-title" style="text-align:center;">People Registered in the Friend Zone</h2>
+
+        <div class="search-container" style="text-align:center; margin: 20px 0;">
+            <input
+                    type="search"
+                    class="search-input"
+                    placeholder="Search for friends..."
+                    aria-label="Search"
+            />
+        </div>
+
+        <ul class="friend-list">
+            <li class="friend-item">
+                <img src="./download.png" alt="profile pic" class="friend-avatar" />
+                <p>Anjana T Reji <br />No. of Friends: 70</p>
+            </li>
+            <li class="friend-item">
+                <img src="./download.png" alt="profile pic" class="friend-avatar" />
+                <p>Anusha K Shaju <br />No. of Friends: 50</p>
+            </li>
+            <li class="friend-item">
+                <img src="./download.png" alt="profile pic" class="friend-avatar" />
+                <p>Akshay Krishna <br />No. of Friends: 40</p>
+            </li>
+            <li class="friend-item">
+                <img src="./download.png" alt="profile pic" class="friend-avatar" />
+                <p>Muhammed Riyas <br />No. of Friends: 50</p>
+            </li>
+            <li class="friend-item">
+                <img src="./download.png" alt="profile pic" class="friend-avatar" />
+                <p>Abel Joy <br />No. of Friends: 40</p>
+            </li>
+            <li class="friend-item">
+                <img src="./download.png" alt="profile pic" class="friend-avatar" />
+                <p>Augustin Biju <br />No. of Friends: 45</p>
+            </li>
+        </ul>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-container">
+        <nav class="footer-nav">
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+        </nav>
+        <p class="copyright">All Rights Reserved &copy; <span id="current-year">2025</span> | Padmanabh Kulkarni</p>
+        <div class="social-media">
+            <p>Connect with us:</p>
+            <ul class="social-links">
+                <li><a href="#" class="social-icon facebook">FB</a></li>
+                <li><a href="#" class="social-icon instagram">Instagram</a></li>
+                <li><a href="#" class="social-icon twitter">Twitter</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
